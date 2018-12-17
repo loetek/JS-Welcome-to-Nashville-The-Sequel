@@ -1,0 +1,40 @@
+{
+  "name": "nss-modular-application",
+  "version": "1.0.0",
+  "description": "Exercise on utilizing API's welcome to Nashville. By JD.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=`pwd`/node_modules grunt"
+  },
+  "author": "Justin Wheeler",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
+    "grunt": "^1.0.3",
+    "grunt-bg-shell": "^2.3.3",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-http-server": "^2.1.0",
+    "load-grunt-config": "^0.19.2",
+    "nss-domcomponent": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/loetek/JS-Welcome-to-Nashville-The-Sequel.git"
+  },
+  "keywords": [
+    "Welcome",
+    "to",
+    "Nashville",
+    "API"
+  ],
+  "bugs": {
+    "url": "https://github.com/loetek/JS-Welcome-to-Nashville-The-Sequel/issues"
+  },
+  "homepage": "https://github.com/loetek/JS-Welcome-to-Nashville-The-Sequel#readme"
+}
